@@ -2,460 +2,52 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="theme-color" content="#11100d">
-
 <title>ON THIT | Official Links</title>
-
 <style>
-*{
-  box-sizing:border-box;
-}
-
-html{
-  scroll-behavior:smooth;
-}
-
-body{
-  margin:0;
-  min-height:100vh;
-  color:#fff;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
-  background:
-    radial-gradient(circle at 50% 0%,rgba(235,190,65,.20),transparent 34%),
-    linear-gradient(180deg,#211d13 0%,#0c0c0b 55%,#050505 100%);
-}
-
-.page{
-  width:100%;
-  max-width:620px;
-  margin:auto;
-  padding:42px 20px 45px;
-  text-align:center;
-}
-
-/* LOGO */
-.logo{
-  width:78px;
-  height:78px;
-  margin:0 auto 18px;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:linear-gradient(145deg,#ffe58a,#c08b20);
-  border:2px solid rgba(255,225,130,.9);
-  box-shadow:
-    0 0 35px rgba(239,193,65,.35),
-    inset 0 0 0 5px rgba(20,18,12,.2);
-  color:#17130c;
-  font-weight:950;
-  font-size:25px;
-  letter-spacing:2px;
-}
-
-h1{
-  margin:0;
-  font-size:34px;
-  font-weight:900;
-  letter-spacing:-1px;
-}
-
-.handle{
-  margin-top:5px;
-  color:#aaa;
-  font-size:17px;
-}
-
-.tag{
-  display:inline-block;
-  margin:18px auto 12px;
-  padding:10px 18px;
-  border:1px solid rgba(224,182,57,.65);
-  border-radius:28px;
-  color:#f2ca58;
-  font-size:13px;
-  font-weight:800;
-  letter-spacing:2px;
-}
-
-.bio{
-  color:#ddd;
-  line-height:1.7;
-  font-size:15px;
-  margin:12px 0 22px;
-}
-
-.bio b{
-  color:#f4cc5c;
-}
-
-/* SOCIAL ICONS */
-.socials{
-  display:flex;
-  justify-content:center;
-  gap:12px;
-  margin:12px 0 28px;
-}
-
-.socials a{
-  width:52px;
-  height:52px;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  text-decoration:none;
-  background:#f2ca5b;
-  color:#17130c;
-  font-weight:900;
-  font-size:21px;
-  box-shadow:0 7px 22px rgba(0,0,0,.28);
-  transition:.2s;
-}
-
-.socials a:hover{
-  transform:translateY(-3px);
-  filter:brightness(1.08);
-}
-
-/* SECTION */
-.section{
-  font-size:12px;
-  letter-spacing:5px;
-  color:#aaa;
-  margin:8px 0 16px;
-}
-
-/* CARDS */
-.card{
-  display:flex;
-  align-items:center;
-  gap:15px;
-  width:100%;
-  padding:17px 18px;
-  margin:13px 0;
-  border-radius:20px;
-  text-decoration:none;
-  color:#fff;
-  background:
-    linear-gradient(
-      135deg,
-      rgba(44,41,31,.95),
-      rgba(20,20,18,.95)
-    );
-  border:1px solid rgba(221,181,61,.45);
-  box-shadow:0 10px 30px rgba(0,0,0,.28);
-  transition:.2s;
-}
-
-.card:hover{
-  transform:translateY(-2px);
-  border-color:#e5bd4b;
-}
-
-.icon{
-  flex:0 0 55px;
-  width:55px;
-  height:55px;
-  border-radius:16px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:linear-gradient(145deg,#f8d76b,#c6972c);
-  color:#17130c;
-  font-weight:950;
-  font-size:22px;
-}
-
-.text{
-  flex:1;
-  text-align:left;
-}
-
-.title{
-  font-size:17px;
-  font-weight:850;
-}
-
-.sub{
-  margin-top:4px;
-  font-size:13px;
-  color:#aaa;
-}
-
-.arrow{
-  font-size:27px;
-  color:#bfa04f;
-}
-
-/* BUTTON */
-.cta{
-  display:block;
-  margin:28px 0 0;
-  padding:16px 22px;
-  border-radius:30px;
-  text-decoration:none;
-  color:#17130c;
-  font-weight:900;
-  background:linear-gradient(90deg,#f6d66b,#c99a2d);
-  box-shadow:0 10px 30px rgba(212,169,53,.18);
-}
-
-.footer{
-  margin-top:22px;
-  color:#777;
-  font-size:12px;
-}
-
-/* MOBILE */
-@media(max-width:420px){
-
-  .page{
-    padding:34px 16px 40px;
-  }
-
-  h1{
-    font-size:31px;
-  }
-
-}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(circle at 50% 0%,rgba(235,190,65,.22),transparent 34%),linear-gradient(180deg,#211d13,#0c0c0b 55%,#050505);color:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.page{max-width:620px;margin:auto;padding:38px 18px 45px;text-align:center}
+.profile{width:150px;height:150px;object-fit:cover;object-position:center 20%;border-radius:50%;display:block;margin:0 auto 20px;border:5px solid #e8c45d;box-shadow:0 0 0 3px #17130c,0 0 38px rgba(239,193,65,.55)}
+h1{margin:0;font-size:34px;font-weight:900;letter-spacing:-1px}
+.handle{margin-top:5px;color:#aaa;font-size:17px}
+.tag{display:inline-block;margin:18px auto 12px;padding:10px 18px;border:1px solid #c99f38;border-radius:28px;color:#f2ca58;font-size:13px;font-weight:800;letter-spacing:2px}
+.bio{color:#ddd;line-height:1.65;font-size:15px;margin:12px 0 22px}
+.bio b{color:#f4cc5c}
+.socials{display:flex;justify-content:center;gap:14px;margin:12px 0 30px}
+.socials a{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;background:linear-gradient(145deg,#f8d76b,#c6972c);color:#17130c;font-weight:900;font-size:22px}
+.section{font-size:12px;letter-spacing:5px;color:#aaa;margin:8px 0 16px}
+.card{display:flex;align-items:center;gap:15px;width:100%;padding:17px 18px;margin:13px 0;border-radius:20px;text-decoration:none;color:#fff;background:linear-gradient(135deg,rgba(44,41,31,.95),rgba(20,20,18,.95));border:1px solid rgba(221,181,61,.55);box-shadow:0 10px 30px rgba(0,0,0,.28)}
+.icon{flex:0 0 55px;width:55px;height:55px;border-radius:16px;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#f8d76b,#c6972c);color:#17130c;font-weight:950;font-size:22px}
+.text{flex:1;text-align:left}.title{font-size:17px;font-weight:850}.sub{margin-top:4px;font-size:13px;color:#aaa}.arrow{font-size:27px;color:#bfa04f}
+.cta{display:block;margin:28px 0 0;padding:16px 22px;border-radius:30px;text-decoration:none;color:#17130c;font-weight:900;background:linear-gradient(90deg,#f6d66b,#c99a2d)}
 </style>
 </head>
-
 <body>
-
 <main class="page">
-
-  <!-- LOGO -->
-  <div class="logo">OT</div>
-
-  <!-- PROFILE -->
-  <h1>ON THIT</h1>
-
-  <div class="handle">
-    @On Thit
-  </div>
-
-  <div class="tag">
-    GOLD · XAUUSD · FOREX
-  </div>
-
-  <div class="bio">
-
-    📈 <b>Forex Trader</b> | XAUUSD
-    <br>
-
-    🎯 Trading Content &amp; Education
-    <br>
-
-    🇰🇭 Cambodia
-
-    <br><br>
-
-    <i>
-      Trade Smart · Trade Disciplined · Trade with a Plan
-    </i>
-
-  </div>
-
-
-  <!-- SOCIAL ICONS -->
-  <div class="socials">
-
-    <a
-      href="https://t.me/JwM_ON_THIT"
-      target="_blank">
-      ✈
-    </a>
-
-    <a
-      href="https://www.facebook.com/share/1Hn9D2dhWS/?mibextid=wwXIfr"
-      target="_blank">
-      f
-    </a>
-
-    <a
-      href="https://www.tiktok.com/@jwm_onthit"
-      target="_blank">
-      ♪
-    </a>
-
-    <a
-      href="https://www.youtube.com/@JwM_ONTHIT"
-      target="_blank">
-      ▶
-    </a>
-
-  </div>
-
-
-  <div class="section">
-    CONNECT WITH ME
-  </div>
-
-
-  <!-- TELEGRAM -->
-  <a
-    class="card"
-    href="https://t.me/JwM_ON_THIT"
-    target="_blank">
-
-    <div class="icon">
-      ✈
-    </div>
-
-    <div class="text">
-
-      <div class="title">
-        Telegram Personal
-      </div>
-
-      <div class="sub">
-        @JwM_ON_THIT
-      </div>
-
-    </div>
-
-    <div class="arrow">
-      ›
-    </div>
-
-  </a>
-
-
-  <!-- COMMUNITY -->
-  <a
-    class="card"
-    href="https://t.me/journeywitme"
-    target="_blank">
-
-    <div class="icon">
-      👥
-    </div>
-
-    <div class="text">
-
-      <div class="title">
-        Trading Community
-      </div>
-
-      <div class="sub">
-        @journeywitme
-      </div>
-
-    </div>
-
-    <div class="arrow">
-      ›
-    </div>
-
-  </a>
-
-
-  <!-- FACEBOOK -->
-  <a
-    class="card"
-    href="https://www.facebook.com/share/1Hn9D2dhWS/?mibextid=wwXIfr"
-    target="_blank">
-
-    <div class="icon">
-      f
-    </div>
-
-    <div class="text">
-
-      <div class="title">
-        Facebook Page
-      </div>
-
-      <div class="sub">
-        Follow On Thit
-      </div>
-
-    </div>
-
-    <div class="arrow">
-      ›
-    </div>
-
-  </a>
-
-
-  <!-- TIKTOK -->
-  <a
-    class="card"
-    href="https://www.tiktok.com/@jwm_onthit"
-    target="_blank">
-
-    <div class="icon">
-      ♪
-    </div>
-
-    <div class="text">
-
-      <div class="title">
-        TikTok
-      </div>
-
-      <div class="sub">
-        @jwm_onthit
-      </div>
-
-    </div>
-
-    <div class="arrow">
-      ›
-    </div>
-
-  </a>
-
-
-  <!-- YOUTUBE -->
-  <a
-    class="card"
-    href="https://www.youtube.com/@JwM_ONTHIT"
-    target="_blank">
-
-    <div class="icon">
-      ▶
-    </div>
-
-    <div class="text">
-
-      <div class="title">
-        YouTube
-      </div>
-
-      <div class="sub">
-        @JwM_ONTHIT
-      </div>
-
-    </div>
-
-    <div class="arrow">
-      ›
-    </div>
-
-  </a>
-
-
-  <!-- MAIN BUTTON -->
-  <a
-    class="cta"
-    href="https://t.me/JwM_ON_THIT"
-    target="_blank">
-
-    ✦ Connect with ON THIT
-
-  </a>
-
-
-  <div class="footer">
-    © ON THIT · All links in one place
-  </div>
-
+<img class="profile" src="data:image/jpeg;base64,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" alt="ON THIT Profile">
+<h1>ON THIT</h1>
+<div class="handle">@On Thit</div>
+<div class="tag">GOLD Â· XAUUSD Â· FOREX</div>
+<div class="bio">ð <b>Forex Trader</b> | XAUUSD<br>ð¯ Trading Content &amp; Education<br>ð°ð­ Cambodia<br><br><i>Trade Smart Â· Trade Disciplined Â· Trade with a Plan</i></div>
+
+<div class="socials">
+<a href="https://t.me/JwM_ON_THIT" target="_blank">â</a>
+<a href="https://www.facebook.com/share/1Hn9D2dhWS/?mibextid=wwXIfr" target="_blank">f</a>
+<a href="https://www.tiktok.com/@jwm_onthit" target="_blank">âª</a>
+<a href="https://www.youtube.com/@JwM_ONTHIT" target="_blank">â¶</a>
+</div>
+
+<div class="section">CONNECT WITH ME</div>
+
+<a class="card" href="https://t.me/JwM_ON_THIT" target="_blank"><div class="icon">â</div><div class="text"><div class="title">Telegram Personal</div><div class="sub">@JwM_ON_THIT</div></div><div class="arrow">âº</div></a>
+<a class="card" href="https://t.me/journeywitme" target="_blank"><div class="icon">ð¥</div><div class="text"><div class="title">Trading Community</div><div class="sub">@journeywitme</div></div><div class="arrow">âº</div></a>
+<a class="card" href="https://www.facebook.com/share/1Hn9D2dhWS/?mibextid=wwXIfr" target="_blank"><div class="icon">f</div><div class="text"><div class="title">Facebook Page</div><div class="sub">Follow ON THIT</div></div><div class="arrow">âº</div></a>
+<a class="card" href="https://www.tiktok.com/@jwm_onthit" target="_blank"><div class="icon">âª</div><div class="text"><div class="title">TikTok</div><div class="sub">@jwm_onthit</div></div><div class="arrow">âº</div></a>
+<a class="card" href="https://www.youtube.com/@JwM_ONTHIT" target="_blank"><div class="icon">â¶</div><div class="text"><div class="title">YouTube</div><div class="sub">@JwM_ONTHIT</div></div><div class="arrow">âº</div></a>
+
+<a class="cta" href="https://t.me/JwM_ON_THIT" target="_blank">â¦ Connect with ON THIT</a>
 </main>
-
 </body>
 </html>
